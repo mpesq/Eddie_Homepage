@@ -23,7 +23,7 @@
   margin: 6rem 0 4rem 20rem;
   width: 35rem;
   h6 {
-    color: #2D9CDB;
+    color: #2d9cdb;
   }
 }
 
@@ -37,14 +37,14 @@
     line-height: 27px;
   }
   .input-story {
-    background: var(--gray-6, #F2F2F2);
-    color: var(--gray-4, #BDBDBD);
+    background: var(--gray-6, #f2f2f2);
+    color: var(--gray-4, #bdbdbd);
     font-size: 18px;
     height: 57px;
   }
   a {
     width: 94px;
-    background: #2D9CDB;
+    background: #2d9cdb;
   }
 }
 
@@ -57,7 +57,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    color: #F2F2F2;
+    color: #f2f2f2;
   }
 }
 
@@ -68,16 +68,16 @@
 .card-only {
   a {
     border: none;
-    background-color: #E0E0E0;
+    background-color: #e0e0e0;
     color: #828282;
   }
 }
 .card-only:hover {
   cursor: pointer;
-  box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.10);
+  box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.1);
   a {
-    background-color: #2D9CDB;
-    color: #FFFFFF;
+    background-color: #2d9cdb;
+    color: #ffffff;
   }
 }
 
@@ -125,7 +125,7 @@
     font-weight: 500;
   }
   h6 {
-    color: #2D9CDB;
+    color: #2d9cdb;
     text-align: right;
     margin-top: 9.5rem;
   }
@@ -137,7 +137,7 @@
     width: 210px;
     margin-right: 17rem;
     .team {
-      color: #EB5757;
+      color: #eb5757;
     }
   }
   img {
@@ -164,7 +164,74 @@
 }
 
 .footer {
-  background: #100E1D;
+  background: #100e1d;
   height: 385px;
   margin-top: 10rem;
+  padding-top: 3rem;
+  .left-footer {
+    a {
+      color: #ffffff;
+    }
+  }
+  .center-footer {
+    h2 {
+      color: #ffffff;
+    }
+  }
+  .right-footer {
+    label {
+      color: #ffffff;
+    }
+    div {
+      width: 350px;
+      height: 57px;
+      a {
+        width: 94px;
+      }
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .edie {
+    margin-left: 1rem !important;
+  }
+  .create {
+    margin: 6rem 0 4rem 0rem;
+    width: 100%;
+  }
+  .img-fluid {
+    border-radius: 18px;
+    height: 145px;
+  }
+  .story {
+    margin: 3.5rem 0 4rem 0;
+  }
+  .demand-services {
+    width: 20rem;
+    margin: 4rem 0 0 3rem;
+  }
+  .cards-div {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .good {
+    width: 100%;
+    margin: 0 0 1rem 3rem;
+  }
+  .cols-left {
+    padding-top: 0rem;
+  }
+  .cell {
+    padding-top: 2rem;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    h6 {
+      margin-top: 2rem;
+      text-align: left;
+    }
+  }
 }
